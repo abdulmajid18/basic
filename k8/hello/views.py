@@ -13,4 +13,4 @@ def hello_world(request):
     print(f"Hostname: {hostname}, IP Address: {ip_address}")
 
     # Return the response
-    return HttpResponse(f"Hello from {hostname} ({ip_address})!")
+    return HttpResponse(f"VERSION 2: Hello from {hostname} ({ip_address})")
